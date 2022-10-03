@@ -1,0 +1,15 @@
+numpy==1.26.1
+pyglet==1.5.8
+gymnasium==0.29.1
+torch==2.1.0
+tensorboard==2.15.1
+ray==2.8.0
+pyarrow==14.0.0
+dm_tree==0.1.8
+scikit-image==0.22.0
+lz4==4.3.2
+ray[tune]==2.8.0
+opencv-python==4.8.1.78
+matplotlib==3.8.1
+pytest==7.4.3
+torchrl==0.2.1

@@ -1,0 +1,23 @@
+actor_lr: 0.0003
+critic_lr: 0.0003
+alpha_lr: 0.0003
+gamma: 0.9
+tau: 0.005
+initial_alpha: 0.2
+target_entropy: auto
+n_step: 1
+replay_buffer_size: 20000
+batch_size: 256
+stop_mean_reward: 1
+target_network_update_rate: 0.995
+number_steps_per_iter: 10000
+number_updates_per_iter: 100
+num_workers: 1
+use_gpu: True
+num_gpus: 1
+timesteps_total: 10000000
+base_dir: /home/ashish/aim-rl
+experiment_name: aim_sac
+initialization_steps: 1500
+checkpoint_path: /home/ashish/aim-rl/aim_sac/2023-11-13-02-57-54/checkpoints/actor.pth # Path to load checkpoint for evaluation
+evaluation_steps: 100000

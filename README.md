@@ -1,4 +1,4 @@
-### Solution of the AIM technical challenge 
+### Solution of a two DOF simple arm chasing a target using Soft Actor Critic
 
 #### Solution overview
 The problem given in the playground environment is for a 2 DOF toy robotic arm to learn to reach a goal. The 2 degrees of freedom are, viz. angle of rotation of the joint attaching base with link 1 and the angle of rotation of the joint attaching the two links. 
